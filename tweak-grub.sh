@@ -12,9 +12,9 @@ add_or_update_key_value() {
     local key="$1"
     local value="$2"
     if grep -q "^$key=" "$GRUB_FILE"; then
-        sed -i "s/^$key=.*/#$key=/" "$GRUB_FILE"
+        sudo sed -i "s/^$key=.*/#$key=/" "$GRUB_FILE"
     fi
-    echo "$key=$value" >> "$GRUB_FILE"
+    echo "$key=$value" | sudo tee "$GRUB_FILE"
 }
 
 # Add or update the required key-value pairs

@@ -42,7 +42,6 @@ extlist=(
 "https://extensions.gnome.org/extension/4105/notification-banner-position/"
 "https://extensions.gnome.org/extension/4228/wireless-hid/"
 "https://extensions.gnome.org/extension/4548/tactile/"
-"https://extensions.gnome.org/extension/5575/power-profile-switcher/"
 "https://extensions.gnome.org/extension/615/appindicator-support/"
 "https://extensions.gnome.org/extension/6242/emoji-copy/"
 "https://extensions.gnome.org/extension/6278/battery-usage-wattmeter/"
@@ -51,6 +50,11 @@ extlist=(
 "https://extensions.gnome.org/extension/2/move-clock/"
 "https://extensions.gnome.org/extension/744/hide-activities-button/"
 "https://extensions.gnome.org/extension/988/harddisk-led/"
+"https://extensions.gnome.org/extension/6000/quick-settings-audio-devices-renamer/"
+"https://extensions.gnome.org/extension/6898/dual-monitor-toggle/"
+"https://extensions.gnome.org/extension/6469/picture-of-the-day/"
+"https://extensions.gnome.org/extension/6679/power-profile-indicator/"
+"https://extensions.gnome.org/extension/6583/auto-power-profile/"
 )
 
 CURRENT_GNOME_VERSION=$(gnome-shell --version | grep -oP '\d+\.\d+' | head -1 | cut -f1 -d.)
